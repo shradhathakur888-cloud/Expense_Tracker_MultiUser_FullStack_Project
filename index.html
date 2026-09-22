@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker | Multi-User & Duo Household Budget by Shradha Thakur</title>
+  <meta name="description" content="A modern, interactive multi-user expense tracker featuring duo household accounting, gain & expenditure analytics, and comprehensive financial records. Crafted by Shradha Thakur.">
+  
+  <!-- Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- App Styles -->
+  <link rel="stylesheet" href="/static/css/styles.css">
+
+  <!-- React 18, ReactDOM 18 & Babel Standalone for Seamless Client-Side React Rendering -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <!-- Chart.js for High-Performance Visual Analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Canvas Confetti for Interactive Celebrations -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <!-- Root Container for React Application -->
+  <div id="root">
+    <!-- Initial Splash Loader until React mounts -->
+    <div class="initial-loader" id="initial-loader">
+      <div class="loader-spinner"></div>
+      <h2 class="loader-title">Shradha's Expense Tracker</h2>
+      <p class="loader-sub">Loading secure financial vault...</p>
+    </div>
+  </div>
+
+  <!-- React App Script (JSX processed in-browser via Babel) -->
+  <script type="text/babel" src="/static/js/app.js"></script>
+</body>
+</html>
